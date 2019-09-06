@@ -17,7 +17,7 @@ end
 
 def find_min_value(array)
   min = array[0]
-  1.upto(array.length) {|index|
+  0.upto(array.length) {|index|
     if array[index] < min
       min = array[index]
     end
